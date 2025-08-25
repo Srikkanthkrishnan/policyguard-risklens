@@ -1,0 +1,9 @@
+{
+  "vendor_name": "CloudCo Asia",
+  "overall_score": 68,
+  "factors": {
+    "financial_health": "moderate",
+    "cyber_incidents_last_12m": 2,
+    "iso27001_certified": false
+  }
+}

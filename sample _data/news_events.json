@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "type": "regulatory",
+      "region": "APAC",
+      "country": "Singapore",
+      "severity": "high",
+      "title": "New data access law expands government oversight of cloud data"
+    },
+    {
+      "type": "sanctions",
+      "region": "APAC",
+      "country": "\u2014",
+      "severity": "low",
+      "title": "No active sanctions impacting vendor"
+    }
+  ]
+}

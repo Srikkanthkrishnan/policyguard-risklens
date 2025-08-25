@@ -1,0 +1,48 @@
+{
+  "rules": [
+    {
+      "id": "C1",
+      "category": "Compliance",
+      "description": "Personal data must be processed in compliance with GDPR requirements.",
+      "source": "GDPR Article 5",
+      "risk": {
+        "type": "Legal",
+        "severity": "High",
+        "likelihood": "Medium"
+      }
+    },
+    {
+      "id": "C2",
+      "category": "Compliance",
+      "description": "Protected health information must follow HIPAA privacy and security guidelines.",
+      "source": "HIPAA §164.302",
+      "risk": {
+        "type": "Legal",
+        "severity": "High",
+        "likelihood": "High"
+      }
+    },
+    {
+      "id": "R1",
+      "category": "Risk",
+      "description": "All sensitive data must be encrypted at rest and in transit using AES-256 or higher.",
+      "source": "ISO 27001 / NIST CSF",
+      "risk": {
+        "type": "Cybersecurity",
+        "severity": "High",
+        "likelihood": "High"
+      }
+    },
+    {
+      "id": "R2",
+      "category": "Risk",
+      "description": "Third-party vendors must sign confidentiality and data processing agreements.",
+      "source": "Internal Policy",
+      "risk": {
+        "type": "Operational",
+        "severity": "Medium",
+        "likelihood": "High"
+      }
+    }
+  ]
+}

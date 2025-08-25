@@ -1,0 +1,5 @@
+{
+  "GDPR_cross_border_restrictions": true,
+  "RBI_local_data_residency": true,
+  "ISO27001_required_for_vendors": true
+}
