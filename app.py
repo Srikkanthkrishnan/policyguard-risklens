@@ -8,7 +8,10 @@ from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import List, Dict, Iterable, Tuple, Optional
 
+
 import streamlit as st
+st.set_page_config(page_title="PolicyGuard")
+st.write("✅ Boot reached")  # If you don’t see this, the app crashed before UI
 from PyPDF2 import PdfReader
 
 # try to enable sample PDF generation
