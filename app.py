@@ -10,8 +10,6 @@ from typing import List, Dict, Iterable, Tuple, Optional
 
 
 import streamlit as st
-st.set_page_config(page_title="PolicyGuard")
-st.write("✅ Boot reached")  # If you don’t see this, the app crashed before UI
 from PyPDF2 import PdfReader
 
 # try to enable sample PDF generation
@@ -238,7 +236,8 @@ def to_rows(findings: List[Finding]):
 
 st.set_page_config(page_title="PolicyGuard RiskLens AI", layout="wide")
 st.title("🛡️ PolicyGuard RiskLens AI — Agentic Analysis")
-
+st.write("✅ Boot reached")
+st.title("🛡️ PolicyGuard RiskLens AI")
 with st.sidebar:
     st.subheader("Mode")
     mode = st.radio("Select", ["Agentic Analysis", "Q&A (coming soon)"])
